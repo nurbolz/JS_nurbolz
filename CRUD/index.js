@@ -7,7 +7,7 @@ const list = document.getElementById("list")
 let tasks = [
 
     ]
-// Галочка
+// Меняние
 list.addEventListener("click", event => {
     if (!event.target.classList.contains("edit")) return
 
@@ -53,7 +53,7 @@ list.addEventListener("click", event => {
 
     render()
 })
-// Меняние
+// Галочкаё
 list.addEventListener("change", event => {
     if (!event.target.classList.contains("toggle-input")) return
 
