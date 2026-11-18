@@ -74,7 +74,15 @@ li.done span {
 .delete:hover {
   background: #f3dede;
 }
+.edit {
+    background: #527b9c;
+    color: white;
+    padding: 4px 8px;
+}
 
+.edit:hover {
+    background: #385d7b;
+}
 /* .counter {
   color: #5a7268;
   font-size: 0.9rem;
