@@ -13,7 +13,7 @@ git push origin main
 
 ## 2. Как пулить
 
-git pull origin main
+git pull
 
 • Скачать без слияния (только посмотреть, что нового):
 git fetch origin
